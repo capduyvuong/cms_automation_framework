@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TAPTAP_CMS"  thread-count="1" parallel="methods" preserve-order="true" >
+  <test name="TAPTAP CMS Automation Test" >
+    <groups>
+      <run>
+        <include name="Referral Challenge"/>
+      </run>
+    </groups>
+
+    <classes>
+      <class name="TestSuites.ReferralChallenge.TestListRefChallenge"> </class>
+      <class name="TestSuites.ReferralChallenge.TestCreateRefChallenge"> </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
